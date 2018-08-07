@@ -32,7 +32,7 @@ CREATE TABLE `actividad` (
   `descripción` varchar(50) NOT NULL,
   `fecha_inicio` date NOT NULL,
   `duracion` int(10) NOT NULL,
-  `liste_recurso` varchar(100) NOT NULL,
+  `lista_recurso` varchar(100) NOT NULL,
   `estado` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
